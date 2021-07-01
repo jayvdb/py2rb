@@ -44,6 +44,7 @@ setup(
     install_requires=[
         'pyyaml',
         'numpy',
+        'six',
     ],
     entry_points={
         'console_scripts': [
