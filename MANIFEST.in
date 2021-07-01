@@ -1,0 +1,12 @@
+include LICENSE
+include README.rst
+# Tests
+include *.py
+include *.txt
+recursive-include tests *.expected_in_out
+recursive-include tests *.expected_out
+recursive-include tests *.md
+recursive-include tests *.py
+recursive-include tests *.rb
+recursive-include tests *.txt
+recursive-include testtools *.py
